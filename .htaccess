@@ -1,0 +1,14 @@
+# custom error docs
+ErrorDocument 404 /notfound.php
+ErrorDocument 403 /forbidden.php
+ErrorDocument 500 /error.php
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+php_value upload_max_filesize 200M 
+php_value post_max_size 200M 
+php_value max_execution_time 3000
+RewriteEngine on
+

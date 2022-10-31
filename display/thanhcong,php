@@ -1,0 +1,9 @@
+<?php 
+ádasdasd
+    if((isset($_REQUEST['tendangnhap']))&&(isset($_REQUEST['sotien'])))
+    {
+        $masp=$_REQUEST['tendangnhap'];
+        $sotien=$_REQUEST['sotien'];
+        echo $masp;
+    }
+?>
